@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Coutinho &amp; Sarmento Advocacia — OAB/PR 00.000</title>
+<link rel="icon" href="assets/balanca.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  html { scroll-behavior: smooth; scroll-padding-top: 92px; -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: #F7F5F0; color: #1A1B1E; font-family: "Source Sans 3", system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  a { color: #1E3A2F; text-decoration: none; }
+  a:hover { color: #2E5A47; }
+  :focus-visible { outline: 2px solid #1E3A2F; outline-offset: 3px; }
+  @keyframes revealUp { from { transform: translateY(105%); } to { transform: translateY(0); } }
+  @keyframes stampIn { 0% { transform: scale(1.35) translateY(-7px) rotate(-6deg); opacity: 0; } 55% { transform: scale(.93) rotate(1deg); opacity: 1; } 100% { transform: scale(1) rotate(0); opacity: 1; } }
+  @keyframes draw { from { stroke-dashoffset: 1400; } to { stroke-dashoffset: 0; } }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { animation: none !important; transition: none !important; } }
+</style>
+</helmet>
+
+<div style="position:relative; min-height:100vh; background:#F7F5F0; overflow-x:hidden">
+  <div style="position:fixed; inset:0; pointer-events:none; z-index:1; opacity:.5; mix-blend-mode:multiply; background-image:url(&quot;data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/><feColorMatrix type='saturate' values='0'/></filter><rect width='160' height='160' filter='url(%23n)' opacity='.16'/></svg>&quot;)"></div>
+
+  <header style="position:fixed; top:0; left:0; right:0; z-index:40; background:rgba(247,245,240,.86); backdrop-filter:blur(12px) saturate(1.1); -webkit-backdrop-filter:blur(12px); border-bottom:1px solid #D8D4CC; transition:padding .3s ease">
+    <div style="max-width:1180px; margin:0 auto; padding:{{ headerPad }} 20px; display:flex; flex-wrap:wrap; align-items:baseline; gap:12px 28px; transition:padding .3s ease">
+      <a href="#topo" style="display:flex; align-items:center; gap:11px; color:#1A1B1E">
+        <img src="assets/balanca.png" alt="" onError="{{ hideImg }}" style="width:26px; height:26px; object-fit:contain; flex:none" />
+        <span style="font-family:'Bodoni Moda',serif; font-size:19px; letter-spacing:.01em; white-space:nowrap">Coutinho &amp; Sarmento</span>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.22em; text-transform:uppercase; color:#1E3A2F">Advocacia</span>
+      </a>
+      <nav style="margin-left:auto; display:flex; flex-wrap:wrap; gap:6px 22px; font-size:14px; letter-spacing:.01em">
+        <a href="#areas" style="color:#1A1B1E; padding:2px 0; border-bottom:1px solid transparent" style-hover="border-bottom:1px solid #1E3A2F; color:#1E3A2F">Áreas</a>
+        <a href="#escritorio" style="color:#1A1B1E; padding:2px 0; border-bottom:1px solid transparent" style-hover="border-bottom:1px solid #1E3A2F; color:#1E3A2F">Escritório</a>
+        <a href="#metodo" style="color:#1A1B1E; padding:2px 0; border-bottom:1px solid transparent" style-hover="border-bottom:1px solid #1E3A2F; color:#1E3A2F">Como trabalhamos</a>
+        <a href="#artigos" style="color:#1A1B1E; padding:2px 0; border-bottom:1px solid transparent" style-hover="border-bottom:1px solid #1E3A2F; color:#1E3A2F">Artigos</a>
+        <a href="#duvidas" style="color:#1A1B1E; padding:2px 0; border-bottom:1px solid transparent" style-hover="border-bottom:1px solid #1E3A2F; color:#1E3A2F">Dúvidas</a>
+        <a href="#contato" style="color:#1E3A2F; padding:2px 0; border-bottom:1px solid #1E3A2F">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="topo" style="position:relative; z-index:2">
+    <section style="position:relative; overflow:hidden; max-width:1180px; margin:0 auto; padding:150px 20px 84px">
+      <div style="display:flex; flex-wrap:wrap; gap:56px 40px; align-items:flex-end">
+        <div style="flex:1 1 460px; min-width:min(100%,300px)">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F; margin-bottom:34px; overflow:hidden"><span style="display:inline-block; animation:revealUp .9s cubic-bezier(.2,.85,.25,1) both">Sarandi · Paraná · desde 2004</span></div>
+          <h1 style="margin:0; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(44px,9vw,88px); line-height:1.02; letter-spacing:-.015em">
+            <span style="display:block; overflow:hidden"><span style="display:inline-block; animation:revealUp 1s cubic-bezier(.2,.85,.25,1) .05s both">Coutinho</span></span>
+            <span style="display:block; overflow:hidden"><span style="display:inline-block; animation:revealUp 1s cubic-bezier(.2,.85,.25,1) .16s both">&amp; Sarmento</span></span>
+          </h1>
+          <div style="margin:18px 0 0; font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:.3em; text-transform:uppercase; color:#1A1B1E; overflow:hidden"><span style="display:inline-block; animation:revealUp 1s cubic-bezier(.2,.85,.25,1) .28s both">Advocacia</span></div>
+          <p style="margin:36px 0 0; max-width:44ch; font-size:clamp(17px,2.2vw,20px); line-height:1.55; color:#3A3B3F; text-wrap:pretty">Atuação em Direito Civil, Trabalhista e Empresarial em Sarandi e região, com acompanhamento direto dos sócios em cada processo.</p>
+          <div style="margin-top:40px; display:flex; flex-wrap:wrap; align-items:center; gap:18px 26px">
+            <a href="#contato" style="display:inline-flex; align-items:center; gap:12px; background:#1E3A2F; color:#F7F5F0; padding:15px 26px; font-size:15px; letter-spacing:.02em; border:1px solid #1E3A2F" style-hover="background:#F7F5F0; color:#1E3A2F">Agendar uma consulta <span style="font-family:'IBM Plex Mono',monospace; font-size:12px">→</span></a>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:11.5px; letter-spacing:.18em; text-transform:uppercase; color:#6A6A66; border-left:1px solid #D8D4CC; padding-left:20px">OAB/PR 00.000</span>
+          </div>
+        </div>
+        <div style="flex:1 1 300px; min-width:min(100%,260px); position:relative; align-self:stretch; min-height:min(62vh,460px)">
+          <img src="assets/themis.png" alt="" onError="{{ hideImg }}" style="position:absolute; right:-8%; bottom:-56px; height:min(86vh,760px); width:auto; max-width:none; opacity:.45; mix-blend-mode:multiply; filter:sepia(.2) saturate(.7) contrast(1.05)" />
+        </div>
+      </div>
+    </section>
+
+    <section id="areas" style="border-top:1px solid #D8D4CC">
+      <div style="max-width:1180px; margin:0 auto; padding:76px 20px 90px">
+        <div data-reveal="" style="display:flex; justify-content:center; margin-bottom:46px">
+          <img src="assets/colunas.png" alt="" onError="{{ hideImg }}" style="width:min(220px,52%); height:auto; opacity:.85" />
+        </div>
+        <div data-reveal="" style="display:flex; flex-wrap:wrap; align-items:baseline; gap:10px 24px; margin-bottom:44px">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F">01 — Áreas de atuação</span>
+          <p style="margin:0; margin-left:auto; max-width:46ch; font-size:15.5px; line-height:1.6; color:#5A5A56">O escritório atende pessoas físicas e empresas nas seguintes áreas do direito.</p>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr)); gap:1px; background:#D8D4CC; border:1px solid #D8D4CC">
+          <a href="#contato" data-reveal="" style="display:block; padding:34px 30px 38px; background:#F7F5F0; color:#1A1B1E; background-image:linear-gradient(#1E3A2F,#1E3A2F); background-repeat:no-repeat; background-position:bottom; background-size:100% 0%; transition:background-size .42s cubic-bezier(.2,.8,.2,1), color .3s ease" style-hover="background-size:100% 100%; color:#F7F5F0">
+            <div style="display:flex; align-items:center; gap:12px; color:inherit; opacity:.6"><img src="assets/balanca.png" alt="" onError="{{ hideImg }}" style="width:36px; height:36px; object-fit:contain; flex:none" /><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.2em">I</span></div>
+            <h3 style="margin:14px 0 12px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:27px; color:inherit">Direito Civil</h3>
+            <p style="margin:0; font-size:15px; line-height:1.6; color:inherit; opacity:.78">Contratos, responsabilidade civil, cobranças e indenizações. Análise de documentos e condução de negociações.</p>
+          </a>
+          <a href="#contato" data-reveal="" style="display:block; padding:34px 30px 38px; background:#F7F5F0; color:#1A1B1E; background-image:linear-gradient(#1E3A2F,#1E3A2F); background-repeat:no-repeat; background-position:bottom; background-size:100% 0%; transition:background-size .42s cubic-bezier(.2,.8,.2,1), color .3s ease" style-hover="background-size:100% 100%; color:#F7F5F0">
+            <div style="display:flex; align-items:center; gap:12px; color:inherit; opacity:.6"><img src="assets/balanca.png" alt="" onError="{{ hideImg }}" style="width:36px; height:36px; object-fit:contain; flex:none" /><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.2em">II</span></div>
+            <h3 style="margin:14px 0 12px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:27px; color:inherit">Direito Trabalhista</h3>
+            <p style="margin:0; font-size:15px; line-height:1.6; color:inherit; opacity:.78">Verbas rescisórias, jornada, reconhecimento de vínculo e acordos. Orientação a empregados e empregadores.</p>
+          </a>
+          <a href="#contato" data-reveal="" style="display:block; padding:34px 30px 38px; background:#F7F5F0; color:#1A1B1E; background-image:linear-gradient(#1E3A2F,#1E3A2F); background-repeat:no-repeat; background-position:bottom; background-size:100% 0%; transition:background-size .42s cubic-bezier(.2,.8,.2,1), color .3s ease" style-hover="background-size:100% 100%; color:#F7F5F0">
+            <div style="display:flex; align-items:center; gap:12px; color:inherit; opacity:.6"><img src="assets/balanca.png" alt="" onError="{{ hideImg }}" style="width:36px; height:36px; object-fit:contain; flex:none" /><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.2em">III</span></div>
+            <h3 style="margin:14px 0 12px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:27px; color:inherit">Direito Empresarial</h3>
+            <p style="margin:0; font-size:15px; line-height:1.6; color:inherit; opacity:.78">Constituição e alteração de sociedades, contratos comerciais e relações entre sócios.</p>
+          </a>
+          <a href="#contato" data-reveal="" style="display:block; padding:34px 30px 38px; background:#F7F5F0; color:#1A1B1E; background-image:linear-gradient(#1E3A2F,#1E3A2F); background-repeat:no-repeat; background-position:bottom; background-size:100% 0%; transition:background-size .42s cubic-bezier(.2,.8,.2,1), color .3s ease" style-hover="background-size:100% 100%; color:#F7F5F0">
+            <div style="display:flex; align-items:center; gap:12px; color:inherit; opacity:.6"><img src="assets/balanca.png" alt="" onError="{{ hideImg }}" style="width:36px; height:36px; object-fit:contain; flex:none" /><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.2em">IV</span></div>
+            <h3 style="margin:14px 0 12px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:27px; color:inherit">Família e Sucessões</h3>
+            <p style="margin:0; font-size:15px; line-height:1.6; color:inherit; opacity:.78">Divórcio, guarda, pensão alimentícia, inventários e partilha de bens, na via judicial ou extrajudicial.</p>
+          </a>
+          <a href="#contato" data-reveal="" style="display:block; padding:34px 30px 38px; background:#F7F5F0; color:#1A1B1E; background-image:linear-gradient(#1E3A2F,#1E3A2F); background-repeat:no-repeat; background-position:bottom; background-size:100% 0%; transition:background-size .42s cubic-bezier(.2,.8,.2,1), color .3s ease" style-hover="background-size:100% 100%; color:#F7F5F0">
+            <div style="display:flex; align-items:center; gap:12px; color:inherit; opacity:.6"><img src="assets/balanca.png" alt="" onError="{{ hideImg }}" style="width:36px; height:36px; object-fit:contain; flex:none" /><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.2em">V</span></div>
+            <h3 style="margin:14px 0 12px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:27px; color:inherit">Direito Imobiliário</h3>
+            <p style="margin:0; font-size:15px; line-height:1.6; color:inherit; opacity:.78">Compra e venda, locação, regularização de imóveis, usucapião e questões de condomínio.</p>
+          </a>
+          <a href="#contato" data-reveal="" style="display:block; padding:34px 30px 38px; background:#F7F5F0; color:#1A1B1E; background-image:linear-gradient(#1E3A2F,#1E3A2F); background-repeat:no-repeat; background-position:bottom; background-size:100% 0%; transition:background-size .42s cubic-bezier(.2,.8,.2,1), color .3s ease" style-hover="background-size:100% 100%; color:#F7F5F0">
+            <div style="display:flex; align-items:center; gap:12px; color:inherit; opacity:.6"><img src="assets/balanca.png" alt="" onError="{{ hideImg }}" style="width:36px; height:36px; object-fit:contain; flex:none" /><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.2em">VI</span></div>
+            <h3 style="margin:14px 0 12px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:27px; color:inherit">Previdenciário</h3>
+            <p style="margin:0; font-size:15px; line-height:1.6; color:inherit; opacity:.78">Aposentadorias, benefícios por incapacidade, pensão por morte e revisão de benefícios do INSS.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="escritorio" style="border-top:1px solid #D8D4CC; background:#F2EFE9">
+      <div style="max-width:1180px; margin:0 auto; padding:82px 20px 92px">
+        <div style="display:flex; flex-wrap:wrap; gap:56px 64px">
+          <div data-reveal="" style="flex:1 1 420px; min-width:min(100%,300px)">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F">02 — O escritório</span>
+            <h2 style="margin:24px 0 26px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(30px,5vw,46px); line-height:1.12; letter-spacing:-.01em; max-width:16ch">Um escritório de porta aberta, na mesma esquina desde 2004.</h2>
+            <div style="max-width:56ch; font-size:16.5px; line-height:1.72; color:#3A3B3F; display:grid; gap:18px">
+              <p style="margin:0">Somos um escritório de advocacia com sede em Sarandi, no norte do Paraná. Atendemos pessoas e empresas da região em demandas judiciais e extrajudiciais, sempre com acompanhamento direto de um dos sócios.</p>
+              <p style="margin:0">Trabalhamos com três compromissos. Explicar cada etapa em linguagem clara. Informar o andamento sem que o cliente precise pedir. E dizer com honestidade quando a via judicial não é o melhor caminho.</p>
+              <p style="margin:0">O sigilo profissional é a base da relação: tudo o que nos é relatado permanece entre o cliente e o escritório, do primeiro contato ao encerramento do caso.</p>
+            </div>
+          </div>
+          <div style="flex:1 1 320px; min-width:min(100%,280px); display:grid; gap:34px">
+            <div data-reveal="" style="display:flex; gap:22px; align-items:flex-start">
+              <div style="flex:0 0 118px; aspect-ratio:4/5; background:#1A1B1E; background-image:repeating-linear-gradient(115deg,rgba(247,245,240,.07) 0 2px,transparent 2px 10px); border:1px solid #D8D4CC"></div>
+              <div>
+                <h3 style="margin:0 0 6px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:24px">Helena Coutinho</h3>
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:#1E3A2F; margin-bottom:12px">OAB/PR 00.001</div>
+                <p style="margin:0; font-size:14.5px; line-height:1.62; color:#5A5A56">Bacharel em Direito pela Universidade Estadual de Maringá. Especialista em Direito do Trabalho e Processo do Trabalho. Atua nas áreas trabalhista e previdenciária.</p>
+              </div>
+            </div>
+            <div data-reveal="" style="display:flex; gap:22px; align-items:flex-start">
+              <div style="flex:0 0 118px; aspect-ratio:4/5; background:#1A1B1E; background-image:repeating-linear-gradient(115deg,rgba(247,245,240,.07) 0 2px,transparent 2px 10px); border:1px solid #D8D4CC"></div>
+              <div>
+                <h3 style="margin:0 0 6px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:24px">Rafael Sarmento</h3>
+                <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:#1E3A2F; margin-bottom:12px">OAB/PR 00.002</div>
+                <p style="margin:0; font-size:14.5px; line-height:1.62; color:#5A5A56">Bacharel em Direito pela Universidade Estadual de Londrina. Especialista em Direito Civil e Empresarial. Atua nas áreas civil, empresarial e imobiliária.</p>
+              </div>
+            </div>
+            <div data-reveal="" style="border-top:1px solid #D8D4CC; padding-top:18px; display:flex; align-items:center; gap:14px">
+              <img src="assets/pena.png" alt="" onError="{{ hideImg }}" style="width:38px; height:38px; object-fit:contain; flex:none; opacity:.75" />
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#6A6A66; line-height:1.7">Sociedade inscrita na OAB/PR sob o nº 0.000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="metodo" style="border-top:1px solid #D8D4CC">
+      <div style="max-width:1180px; margin:0 auto; padding:82px 20px 96px">
+        <div data-reveal="" style="margin-bottom:56px">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F">03 — Como trabalhamos</span>
+          <h2 style="margin:24px 0 18px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(30px,5vw,46px); line-height:1.12; max-width:18ch">O caminho de um caso, do primeiro relato à conclusão.</h2>
+          <p style="margin:0; max-width:52ch; font-size:16px; line-height:1.65; color:#5A5A56">Cada processo tem seu tempo, definido pelo Judiciário. O que podemos garantir é que você saiba, em cada etapa, onde o seu caso está.</p>
+        </div>
+
+        <div id="tl-wrap" style="position:relative; padding-left:clamp(46px,7vw,84px)">
+          <div style="position:absolute; left:clamp(15px,2.4vw,28px); top:6px; bottom:6px; width:1px; background:#D8D4CC"></div>
+          <div id="tl-fill" style="position:absolute; left:clamp(15px,2.4vw,28px); top:6px; width:1px; height:0%; background:#1E3A2F"></div>
+          <div style="display:grid; gap:clamp(38px,6vw,58px)">
+            <div style="position:relative">
+              <div data-stamp="" style="position:absolute; left:calc(clamp(46px,7vw,84px) * -1 + clamp(15px,2.4vw,28px) - 27px); top:-10px; width:54px; height:54px; background-image:url(assets/lacre.png); background-size:contain; background-repeat:no-repeat; background-position:center"></div>
+              <span style="display:block; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F; margin-bottom:8px">01</span>
+              <h3 style="margin:0 0 10px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(23px,3.4vw,30px)">Consulta inicial</h3>
+              <p style="margin:0; max-width:56ch; font-size:16px; line-height:1.68; color:#4A4A48">Ouvimos o seu relato por inteiro, sem pressa, e identificamos quais documentos são necessários. Você sai da consulta sabendo quais caminhos existem.</p>
+            </div>
+            <div style="position:relative">
+              <div data-stamp="" style="position:absolute; left:calc(clamp(46px,7vw,84px) * -1 + clamp(15px,2.4vw,28px) - 27px); top:-10px; width:54px; height:54px; background-image:url(assets/lacre.png); background-size:contain; background-repeat:no-repeat; background-position:center"></div>
+              <span style="display:block; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F; margin-bottom:8px">02</span>
+              <h3 style="margin:0 0 10px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(23px,3.4vw,30px)">Análise de viabilidade</h3>
+              <p style="margin:0; max-width:56ch; font-size:16px; line-height:1.68; color:#4A4A48">Estudamos documentos, legislação aplicável e entendimento dos tribunais. Se entendermos que a via judicial não é indicada, dizemos isso com clareza.</p>
+            </div>
+            <div style="position:relative">
+              <div data-stamp="" style="position:absolute; left:calc(clamp(46px,7vw,84px) * -1 + clamp(15px,2.4vw,28px) - 27px); top:-10px; width:54px; height:54px; background-image:url(assets/lacre.png); background-size:contain; background-repeat:no-repeat; background-position:center"></div>
+              <span style="display:block; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F; margin-bottom:8px">03</span>
+              <h3 style="margin:0 0 10px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(23px,3.4vw,30px)">Definição de estratégia</h3>
+              <p style="margin:0; max-width:56ch; font-size:16px; line-height:1.68; color:#4A4A48">Apresentamos as alternativas — acordo, procedimento extrajudicial ou ação — com prazos estimados e implicações de cada uma. A decisão é sempre do cliente.</p>
+            </div>
+            <div style="position:relative">
+              <div data-stamp="" style="position:absolute; left:calc(clamp(46px,7vw,84px) * -1 + clamp(15px,2.4vw,28px) - 27px); top:-10px; width:54px; height:54px; background-image:url(assets/lacre.png); background-size:contain; background-repeat:no-repeat; background-position:center"></div>
+              <span style="display:block; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F; margin-bottom:8px">04</span>
+              <h3 style="margin:0 0 10px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(23px,3.4vw,30px)">Protocolo</h3>
+              <p style="margin:0; max-width:56ch; font-size:16px; line-height:1.68; color:#4A4A48">Redigimos a peça, reunimos as provas e protocolamos. Você recebe o número do processo e a orientação de como acompanhá-lo pelo portal do tribunal.</p>
+            </div>
+            <div style="position:relative">
+              <div data-stamp="" style="position:absolute; left:calc(clamp(46px,7vw,84px) * -1 + clamp(15px,2.4vw,28px) - 27px); top:-10px; width:54px; height:54px; background-image:url(assets/lacre.png); background-size:contain; background-repeat:no-repeat; background-position:center"></div>
+              <span style="display:block; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F; margin-bottom:8px">05</span>
+              <h3 style="margin:0 0 10px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(23px,3.4vw,30px)">Acompanhamento</h3>
+              <p style="margin:0; max-width:56ch; font-size:16px; line-height:1.68; color:#4A4A48">A cada movimentação relevante, entramos em contato e explicamos o que aconteceu. Audiências são preparadas com o cliente, com antecedência.</p>
+            </div>
+            <div style="position:relative">
+              <div data-stamp="" style="position:absolute; left:calc(clamp(46px,7vw,84px) * -1 + clamp(15px,2.4vw,28px) - 27px); top:-10px; width:54px; height:54px; background-image:url(assets/lacre.png); background-size:contain; background-repeat:no-repeat; background-position:center"></div>
+              <span style="display:block; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F; margin-bottom:8px">06</span>
+              <h3 style="margin:0 0 10px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(23px,3.4vw,30px)">Conclusão e prestação de contas</h3>
+              <p style="margin:0; max-width:56ch; font-size:16px; line-height:1.68; color:#4A4A48">Encerrado o caso, apresentamos por escrito o que foi decidido, os valores movimentados quando houver e a devolução dos documentos originais.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="artigos" style="border-top:1px solid #D8D4CC; background:#1A1B1E; color:#F7F5F0">
+      <div style="max-width:1180px; margin:0 auto; padding:82px 20px 92px">
+        <div data-reveal="" style="display:flex; flex-wrap:wrap; align-items:flex-end; gap:16px 32px; margin-bottom:46px">
+          <div>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#8FB3A2">04 — Artigos e informativos</span>
+            <h2 style="margin:22px 0 0; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(30px,5vw,46px); line-height:1.12; max-width:16ch">Conteúdo para quem precisa entender antes de decidir.</h2>
+          </div>
+          <div style="margin:0 0 6px auto; max-width:34ch; display:grid; gap:18px; justify-items:start">
+            <img src="assets/codigos.png" alt="" onError="{{ hideImg }}" style="width:186px; height:auto; opacity:.8; filter:invert(1) brightness(1.35)" />
+            <p style="margin:0; font-size:15.5px; line-height:1.6; color:rgba(247,245,240,.62)">Textos de caráter educativo, escritos pelos sócios. Não substituem a análise individual de um caso.</p>
+          </div>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr)); gap:1px; background:rgba(247,245,240,.16); border:1px solid rgba(247,245,240,.16)">
+          <a href="Artigo Rescisao.dc.html" data-reveal="" style="display:flex; flex-direction:column; gap:14px; padding:32px 28px 34px; background:#1A1B1E; color:#F7F5F0; transition:background .3s ease" style-hover="background:#1E3A2F; color:#F7F5F0">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:#8FB3A2">12.03.2026</span>
+            <h3 style="margin:0; font-family:'Bodoni Moda',serif; font-weight:400; font-size:25px; line-height:1.24">O que muda na rescisão de contrato de trabalho</h3>
+            <p style="margin:0; font-size:14.5px; line-height:1.6; color:rgba(247,245,240,.66)">As modalidades de encerramento do contrato e as verbas devidas em cada uma.</p>
+            <span style="margin-top:auto; padding-top:16px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:rgba(247,245,240,.45)">6 min de leitura</span>
+          </a>
+          <a href="Artigo Rescisao.dc.html" data-reveal="" style="display:flex; flex-direction:column; gap:14px; padding:32px 28px 34px; background:#1A1B1E; color:#F7F5F0; transition:background .3s ease" style-hover="background:#1E3A2F; color:#F7F5F0">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:#8FB3A2">27.02.2026</span>
+            <h3 style="margin:0; font-family:'Bodoni Moda',serif; font-weight:400; font-size:25px; line-height:1.24">Inventário extrajudicial: quando é possível</h3>
+            <p style="margin:0; font-size:14.5px; line-height:1.6; color:rgba(247,245,240,.66)">Os requisitos legais para fazer a partilha em cartório e a documentação exigida.</p>
+            <span style="margin-top:auto; padding-top:16px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:rgba(247,245,240,.45)">5 min de leitura</span>
+          </a>
+          <a href="Artigo Rescisao.dc.html" data-reveal="" style="display:flex; flex-direction:column; gap:14px; padding:32px 28px 34px; background:#1A1B1E; color:#F7F5F0; transition:background .3s ease" style-hover="background:#1E3A2F; color:#F7F5F0">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:#8FB3A2">05.02.2026</span>
+            <h3 style="margin:0; font-family:'Bodoni Moda',serif; font-weight:400; font-size:25px; line-height:1.24">Direitos do comprador na compra de imóvel na planta</h3>
+            <p style="margin:0; font-size:14.5px; line-height:1.6; color:rgba(247,245,240,.66)">Prazos de entrega, atraso da construtora e o que o contrato precisa prever.</p>
+            <span style="margin-top:auto; padding-top:16px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:rgba(247,245,240,.45)">7 min de leitura</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="duvidas" style="border-top:1px solid #D8D4CC">
+      <div style="max-width:1180px; margin:0 auto; padding:82px 20px 90px; display:flex; flex-wrap:wrap; gap:44px 64px">
+        <div data-reveal="" style="flex:1 1 280px">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F">05 — Perguntas frequentes</span>
+          <h2 style="margin:22px 0 0; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(30px,4.6vw,42px); line-height:1.12; max-width:14ch">Dúvidas de quem procura um advogado pela primeira vez.</h2>
+        </div>
+        <div style="flex:1 1 460px; min-width:min(100%,300px); border-top:1px solid #D8D4CC">
+          <div style="border-bottom:1px solid #D8D4CC">
+            <button type="button" onClick="{{ t0 }}" aria-expanded="{{ e0 }}" style="width:100%; display:flex; gap:20px; align-items:flex-start; text-align:left; background:none; border:0; padding:22px 0; cursor:pointer; font-family:inherit; font-size:17.5px; line-height:1.45; color:#1A1B1E">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#1E3A2F; padding-top:5px">01</span>
+              <span style="flex:1">Quanto custa uma consulta?</span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:15px; color:#1E3A2F">{{ s0 }}</span>
+            </button>
+            <sc-if value="{{ f0 }}" hint-placeholder-val="{{ false }}">
+              <p style="margin:0; padding:0 0 24px 40px; max-width:58ch; font-size:15.5px; line-height:1.7; color:#4A4A48">Os honorários são apresentados de forma individualizada, por escrito, após a análise do caso, observados os critérios da Tabela de Honorários da OAB/PR. Não divulgamos valores nesta página, conforme o Código de Ética e Disciplina da profissão.</p>
+            </sc-if>
+          </div>
+          <div style="border-bottom:1px solid #D8D4CC">
+            <button type="button" onClick="{{ t1 }}" aria-expanded="{{ e1 }}" style="width:100%; display:flex; gap:20px; align-items:flex-start; text-align:left; background:none; border:0; padding:22px 0; cursor:pointer; font-family:inherit; font-size:17.5px; line-height:1.45; color:#1A1B1E">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#1E3A2F; padding-top:5px">02</span>
+              <span style="flex:1">Vocês atendem online?</span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:15px; color:#1E3A2F">{{ s1 }}</span>
+            </button>
+            <sc-if value="{{ f1 }}" hint-placeholder-val="{{ false }}">
+              <p style="margin:0; padding:0 0 24px 40px; max-width:58ch; font-size:15.5px; line-height:1.7; color:#4A4A48">Sim. Realizamos consultas por videochamada e recebemos documentos em meio digital, com o mesmo sigilo do atendimento presencial. Algumas etapas, como assinatura de procuração, podem exigir uma visita ao escritório.</p>
+            </sc-if>
+          </div>
+          <div style="border-bottom:1px solid #D8D4CC">
+            <button type="button" onClick="{{ t2 }}" aria-expanded="{{ e2 }}" style="width:100%; display:flex; gap:20px; align-items:flex-start; text-align:left; background:none; border:0; padding:22px 0; cursor:pointer; font-family:inherit; font-size:17.5px; line-height:1.45; color:#1A1B1E">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#1E3A2F; padding-top:5px">03</span>
+              <span style="flex:1">O que devo levar na primeira consulta?</span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:15px; color:#1E3A2F">{{ s2 }}</span>
+            </button>
+            <sc-if value="{{ f2 }}" hint-placeholder-val="{{ false }}">
+              <p style="margin:0; padding:0 0 24px 40px; max-width:58ch; font-size:15.5px; line-height:1.7; color:#4A4A48">Documento de identidade, CPF e comprovante de endereço, além de tudo o que se relacione ao assunto: contratos, recibos, mensagens, carteira de trabalho, notificações ou intimações recebidas. Na dúvida, traga o material — nós organizamos junto com você.</p>
+            </sc-if>
+          </div>
+          <div style="border-bottom:1px solid #D8D4CC">
+            <button type="button" onClick="{{ t3 }}" aria-expanded="{{ e3 }}" style="width:100%; display:flex; gap:20px; align-items:flex-start; text-align:left; background:none; border:0; padding:22px 0; cursor:pointer; font-family:inherit; font-size:17.5px; line-height:1.45; color:#1A1B1E">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#1E3A2F; padding-top:5px">04</span>
+              <span style="flex:1">Quanto tempo demora um processo?</span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:15px; color:#1E3A2F">{{ s3 }}</span>
+            </button>
+            <sc-if value="{{ f3 }}" hint-placeholder-val="{{ false }}">
+              <p style="margin:0; padding:0 0 24px 40px; max-width:58ch; font-size:15.5px; line-height:1.7; color:#4A4A48">O prazo depende do tipo de ação, da vara e do próprio andamento do Judiciário, e não está sob controle do advogado. Na definição da estratégia informamos a estimativa média para casos daquela natureza, deixando claro que se trata de estimativa.</p>
+            </sc-if>
+          </div>
+          <div style="border-bottom:1px solid #D8D4CC">
+            <button type="button" onClick="{{ t4 }}" aria-expanded="{{ e4 }}" style="width:100%; display:flex; gap:20px; align-items:flex-start; text-align:left; background:none; border:0; padding:22px 0; cursor:pointer; font-family:inherit; font-size:17.5px; line-height:1.45; color:#1A1B1E">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#1E3A2F; padding-top:5px">05</span>
+              <span style="flex:1">Como acompanho o andamento do meu caso?</span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:15px; color:#1E3A2F">{{ s4 }}</span>
+            </button>
+            <sc-if value="{{ f4 }}" hint-placeholder-val="{{ false }}">
+              <p style="margin:0; padding:0 0 24px 40px; max-width:58ch; font-size:15.5px; line-height:1.7; color:#4A4A48">Entramos em contato a cada movimentação relevante, por telefone ou mensagem, e explicamos o que aconteceu em linguagem comum. Você também recebe o número do processo e a orientação para consultá-lo no portal do tribunal.</p>
+            </sc-if>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" style="border-top:1px solid #D8D4CC; background:#F2EFE9">
+      <div style="max-width:1180px; margin:0 auto; padding:82px 20px 92px; display:flex; flex-wrap:wrap; gap:52px 64px">
+        <div data-reveal="" style="flex:1 1 420px; min-width:min(100%,300px)">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.24em; text-transform:uppercase; color:#1E3A2F">06 — Contato</span>
+          <h2 style="margin:22px 0 30px; font-family:'Bodoni Moda',serif; font-weight:400; font-size:clamp(30px,5vw,44px); line-height:1.12; max-width:14ch">Agendar uma consulta</h2>
+          <form onSubmit="{{ submit }}" style="display:grid; gap:20px; max-width:520px">
+            <label style="display:grid; gap:8px">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:#6A6A66">Nome completo</span>
+              <input type="text" name="nome" required="" style="font-family:inherit; font-size:16px; padding:13px 14px; background:#F7F5F0; border:1px solid #D8D4CC; color:#1A1B1E" style-focus="border-color:#1E3A2F; outline:none" />
+            </label>
+            <label style="display:grid; gap:8px">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:#6A6A66">Telefone</span>
+              <input type="tel" name="telefone" required="" placeholder="(44) 0 0000-0000" style="font-family:inherit; font-size:16px; padding:13px 14px; background:#F7F5F0; border:1px solid #D8D4CC; color:#1A1B1E" style-focus="border-color:#1E3A2F; outline:none" />
+            </label>
+            <label style="display:grid; gap:8px">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:#6A6A66">Área do direito</span>
+              <select name="area" style="font-family:inherit; font-size:16px; padding:13px 14px; background:#F7F5F0; border:1px solid #D8D4CC; color:#1A1B1E; border-radius:0" style-focus="border-color:#1E3A2F; outline:none">
+                <option>Não sei informar</option>
+                <option>Direito Civil</option>
+                <option>Direito Trabalhista</option>
+                <option>Direito Empresarial</option>
+                <option>Família e Sucessões</option>
+                <option>Direito Imobiliário</option>
+                <option>Previdenciário</option>
+              </select>
+            </label>
+            <label style="display:grid; gap:8px">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:#6A6A66">Breve descrição</span>
+              <textarea name="descricao" rows="4" style="font-family:inherit; font-size:16px; padding:13px 14px; background:#F7F5F0; border:1px solid #D8D4CC; color:#1A1B1E; resize:vertical" style-focus="border-color:#1E3A2F; outline:none"></textarea>
+            </label>
+            <button type="submit" style="justify-self:start; background:#1E3A2F; color:#F7F5F0; border:1px solid #1E3A2F; padding:15px 30px; font-family:inherit; font-size:15px; cursor:pointer; transition:background .25s ease,color .25s ease" style-hover="background:#F2EFE9; color:#1E3A2F">Enviar solicitação</button>
+            <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}">
+              <p style="margin:0; font-family:'IBM Plex Mono',monospace; font-size:11.5px; letter-spacing:.1em; color:#1E3A2F">Solicitação registrada. Retornaremos o contato em horário comercial.</p>
+            </sc-if>
+            <p style="margin:0; font-size:13.5px; line-height:1.6; color:#6A6A66; max-width:52ch; border-left:1px solid #D8D4CC; padding-left:14px">As informações enviadas por este formulário são tratadas com sigilo profissional e utilizadas apenas para o retorno do contato.</p>
+          </form>
+        </div>
+        <div data-reveal="" style="flex:1 1 300px; min-width:min(100%,260px); display:grid; gap:26px; align-content:start">
+          <div style="border-top:1px solid #D8D4CC; padding-top:16px">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:#6A6A66; margin-bottom:8px">Endereço</div>
+            <p style="margin:0; font-size:16px; line-height:1.6">Rua das Acácias, 480 — sala 3<br />Centro, Sarandi — PR<br />CEP 87111-000</p>
+          </div>
+          <div style="border-top:1px solid #D8D4CC; padding-top:16px">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:#6A6A66; margin-bottom:8px">Atendimento</div>
+            <p style="margin:0; font-size:16px; line-height:1.6">Segunda a sexta, das 9h às 18h<br />Consultas mediante agendamento</p>
+          </div>
+          <div style="border-top:1px solid #D8D4CC; padding-top:16px">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:#6A6A66; margin-bottom:8px">Telefone</div>
+            <p style="margin:0; font-size:16px; line-height:1.6">(44) 0 0000-0000<br />contato@coutinhosarmento.adv.br</p>
+          </div>
+          <div style="position:relative; aspect-ratio:4/3; background:#E7E3DA; border:1px solid #D8D4CC; overflow:hidden">
+            <div style="position:absolute; inset:0; background-image:linear-gradient(#D8D4CC 1px,transparent 1px),linear-gradient(90deg,#D8D4CC 1px,transparent 1px); background-size:34px 34px; opacity:.85"></div>
+            <div style="position:absolute; left:-10%; top:38%; width:120%; height:12px; background:#F7F5F0; border-top:1px solid #D8D4CC; border-bottom:1px solid #D8D4CC; transform:rotate(-8deg)"></div>
+            <div style="position:absolute; left:26%; top:-10%; width:10px; height:120%; background:#F7F5F0; border-left:1px solid #D8D4CC; border-right:1px solid #D8D4CC; transform:rotate(6deg)"></div>
+            <div style="position:absolute; left:calc(26% + 5px); top:38%; width:11px; height:11px; background:#1E3A2F; transform:translate(-50%,-50%) rotate(45deg)"></div>
+            <span style="position:absolute; left:14px; bottom:12px; font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.16em; text-transform:uppercase; color:#6A6A66">Centro · Sarandi/PR</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer style="position:relative; z-index:2; border-top:1px solid #D8D4CC; background:#F7F5F0">
+    <div style="max-width:1180px; margin:0 auto; padding:56px 20px 34px; display:flex; flex-wrap:wrap; gap:36px 48px">
+      <div style="flex:1 1 280px">
+        <div style="font-family:'Bodoni Moda',serif; font-size:24px; line-height:1.2">Coutinho &amp; Sarmento</div>
+        <div style="position:relative; display:inline-flex; align-items:center; justify-content:center; margin-top:14px; width:180px; height:180px">
+          <img src="assets/louros.png" alt="" onError="{{ hideImg }}" style="position:absolute; inset:0; width:100%; height:100%; object-fit:contain; opacity:.7" />
+          <span style="position:relative; font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.2em; text-transform:uppercase; color:#1E3A2F; text-align:center">Advocacia<br />OAB/PR 0.000</span>
+        </div>
+        <p style="margin:18px 0 0; font-size:15px; line-height:1.6; color:#5A5A56">Rua das Acácias, 480 — sala 3<br />Centro, Sarandi — PR</p>
+      </div>
+      <nav style="flex:1 1 180px; display:grid; gap:9px; align-content:start; font-size:15px">
+        <a href="#areas" style="color:#1A1B1E">Áreas de atuação</a>
+        <a href="#escritorio" style="color:#1A1B1E">O escritório</a>
+        <a href="#metodo" style="color:#1A1B1E">Como trabalhamos</a>
+        <a href="#artigos" style="color:#1A1B1E">Artigos e informativos</a>
+        <a href="#duvidas" style="color:#1A1B1E">Perguntas frequentes</a>
+        <a href="#contato" style="color:#1A1B1E">Contato</a>
+      </nav>
+      <div style="flex:1 1 220px; font-size:15px; line-height:1.6; color:#5A5A56">
+        Segunda a sexta, 9h às 18h<br />(44) 0 0000-0000<br />contato@coutinhosarmento.adv.br
+      </div>
+    </div>
+    <div style="max-width:1180px; margin:0 auto; padding:0 20px 46px">
+      <p style="margin:0; border-top:1px solid #D8D4CC; padding-top:20px; font-family:'IBM Plex Mono',monospace; font-size:11.5px; line-height:1.8; letter-spacing:.06em; color:#4A4A48; max-width:80ch">Este site tem caráter meramente informativo, em conformidade com o Provimento 205/2021 do Conselho Federal da OAB.</p>
+      <p style="margin:14px 0 0; font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#8A8A84">© 2026 Coutinho &amp; Sarmento Sociedade de Advogados</p>
+    </div>
+  </footer>
+
+  <sc-if value="{{ showWhats }}" hint-placeholder-val="{{ true }}">
+    <a href="#contato" aria-label="Falar pelo WhatsApp" style="position:fixed; right:18px; bottom:18px; z-index:50; display:inline-flex; align-items:center; gap:10px; background:#1E3A2F; color:#F7F5F0; border:1px solid #1E3A2F; padding:11px 16px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; transition:background .25s ease,color .25s ease" style-hover="background:#F7F5F0; color:#1E3A2F">WhatsApp</a>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showWhats&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Comportamento&quot;}}">
+class Component extends DCLogic {
+  state = { shrunk: false, open: 0, sent: false };
+
+  componentDidMount() {
+    const rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    this.onScroll = () => {
+      const s = window.scrollY > 40;
+      if (s !== this.state.shrunk) this.setState({ shrunk: s });
+      const wrap = document.getElementById('tl-wrap');
+      const fill = document.getElementById('tl-fill');
+      if (wrap && fill) {
+        const r = wrap.getBoundingClientRect();
+        const p = Math.min(1, Math.max(0, (window.innerHeight * 0.72 - r.top) / Math.max(1, r.height * 0.92)));
+        fill.style.height = (p * 100).toFixed(2) + '%';
+      }
+    };
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    window.addEventListener('resize', this.onScroll);
+    this.onScroll();
+
+    this.io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        const el = e.target;
+        el.style.opacity = '1';
+        el.style.transform = 'none';
+        if (el.hasAttribute('data-stamp') && !rm) el.style.animation = 'stampIn .5s cubic-bezier(.2,.9,.25,1) both';
+        this.io.unobserve(el);
+      });
+    }, { threshold: 0.18, rootMargin: '0px 0px -8% 0px' });
+
+    document.querySelectorAll('[data-reveal],[data-stamp]').forEach((el) => {
+      if (!rm) {
+        el.style.opacity = '0';
+        if (!el.hasAttribute('data-stamp')) {
+          el.style.transform = 'translateY(16px)';
+          el.style.transition = 'opacity .7s ease, transform .8s cubic-bezier(.2,.8,.2,1)';
+        }
+      }
+      this.io.observe(el);
+    });
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener('resize', this.onScroll);
+    if (this.io) this.io.disconnect();
+  }
+
+  toggle(i) {
+    this.setState((s) => ({ open: s.open === i ? -1 : i }));
+  }
+
+  renderVals() {
+    const open = this.state.open;
+    const vals = {
+      headerPad: this.state.shrunk ? '11px' : '20px',
+      hideImg: (e) => { e.target.style.display = 'none'; },
+      showWhats: this.props.showWhats ?? true,
+      sent: this.state.sent,
+      submit: (e) => { e.preventDefault(); this.setState({ sent: true }); }
+    };
+    for (let i = 0; i < 5; i++) {
+      vals['f' + i] = open === i;
+      vals['e' + i] = open === i ? 'true' : 'false';
+      vals['s' + i] = open === i ? '–' : '+';
+      vals['t' + i] = () => this.toggle(i);
+    }
+    return vals;
+  }
+}
+</script>
+</body>
+</html>
