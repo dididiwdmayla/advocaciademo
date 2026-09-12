@@ -3,6 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+  // React/ReactDOM servidos pelo proprio dominio (sem depender do unpkg.com).
+  // O runtime (support.js) consulta window.__resources antes de buscar no CDN.
+  window.__resources = {
+    "https://unpkg.com/react@18.3.1/umd/react.production.min.js": "vendor/react.production.min.js",
+    "https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js": "vendor/react-dom.production.min.js"
+  };
+</script>
 <script src="./support.js"></script>
 </head>
 <body>
@@ -219,19 +227,19 @@
           </div>
         </div>
         <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr)); gap:1px; background:rgba(247,245,240,.16); border:1px solid rgba(247,245,240,.16)">
-          <a href="Artigo Rescisao.dc.html" data-reveal="" style="display:flex; flex-direction:column; gap:14px; padding:32px 28px 34px; background:#1A1B1E; color:#F7F5F0; transition:background .3s ease" style-hover="background:#1E3A2F; color:#F7F5F0">
+          <a href="artigo-rescisao.html" data-reveal="" style="display:flex; flex-direction:column; gap:14px; padding:32px 28px 34px; background:#1A1B1E; color:#F7F5F0; transition:background .3s ease" style-hover="background:#1E3A2F; color:#F7F5F0">
             <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:#8FB3A2">12.03.2026</span>
             <h3 style="margin:0; font-family:'Bodoni Moda',serif; font-weight:400; font-size:25px; line-height:1.24">O que muda na rescisão de contrato de trabalho</h3>
             <p style="margin:0; font-size:14.5px; line-height:1.6; color:rgba(247,245,240,.66)">As modalidades de encerramento do contrato e as verbas devidas em cada uma.</p>
             <span style="margin-top:auto; padding-top:16px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:rgba(247,245,240,.45)">6 min de leitura</span>
           </a>
-          <a href="Artigo Rescisao.dc.html" data-reveal="" style="display:flex; flex-direction:column; gap:14px; padding:32px 28px 34px; background:#1A1B1E; color:#F7F5F0; transition:background .3s ease" style-hover="background:#1E3A2F; color:#F7F5F0">
+          <a href="artigo-rescisao.html" data-reveal="" style="display:flex; flex-direction:column; gap:14px; padding:32px 28px 34px; background:#1A1B1E; color:#F7F5F0; transition:background .3s ease" style-hover="background:#1E3A2F; color:#F7F5F0">
             <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:#8FB3A2">27.02.2026</span>
             <h3 style="margin:0; font-family:'Bodoni Moda',serif; font-weight:400; font-size:25px; line-height:1.24">Inventário extrajudicial: quando é possível</h3>
             <p style="margin:0; font-size:14.5px; line-height:1.6; color:rgba(247,245,240,.66)">Os requisitos legais para fazer a partilha em cartório e a documentação exigida.</p>
             <span style="margin-top:auto; padding-top:16px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; color:rgba(247,245,240,.45)">5 min de leitura</span>
           </a>
-          <a href="Artigo Rescisao.dc.html" data-reveal="" style="display:flex; flex-direction:column; gap:14px; padding:32px 28px 34px; background:#1A1B1E; color:#F7F5F0; transition:background .3s ease" style-hover="background:#1E3A2F; color:#F7F5F0">
+          <a href="artigo-rescisao.html" data-reveal="" style="display:flex; flex-direction:column; gap:14px; padding:32px 28px 34px; background:#1A1B1E; color:#F7F5F0; transition:background .3s ease" style-hover="background:#1E3A2F; color:#F7F5F0">
             <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.18em; color:#8FB3A2">05.02.2026</span>
             <h3 style="margin:0; font-family:'Bodoni Moda',serif; font-weight:400; font-size:25px; line-height:1.24">Direitos do comprador na compra de imóvel na planta</h3>
             <p style="margin:0; font-size:14.5px; line-height:1.6; color:rgba(247,245,240,.66)">Prazos de entrega, atraso da construtora e o que o contrato precisa prever.</p>
